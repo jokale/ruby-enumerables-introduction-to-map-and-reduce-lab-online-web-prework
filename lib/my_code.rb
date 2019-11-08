@@ -82,10 +82,3 @@ def reduce_to_all_true(array)
   end 
 end 
 
-def reduce_to_all_true(array)
-  counter = 0 
-  while counter < array.size do 
-   return false if array = false
-    counter +=1 
-  end 
-end 
