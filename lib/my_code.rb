@@ -77,7 +77,7 @@ end
 def reduce_to_all_true(array)
   counter = 0 
   while counter < array.size do 
-   total += (array [counter])
+   if
     counter +=1 
   end 
 end 
