@@ -80,6 +80,6 @@ def reduce_to_all_true(array)
    return true if array = true
     counter +=1 
   end 
-  if array = false return false
+  return false
 end 
 
