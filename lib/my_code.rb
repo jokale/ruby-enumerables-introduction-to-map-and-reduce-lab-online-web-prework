@@ -48,7 +48,7 @@ def map_to_no_change(array)
   final_array = []
   counter = 0 
   while counter < array.size do 
-    final_array.push()
+    final_array.push(array [counter]* 2)
     counter += 1
 end 
 final_array
