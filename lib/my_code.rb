@@ -88,7 +88,6 @@ end
 
 def reduce_to_any_true(array)
   counter = 0 
-  any_true= 0 
   while counter < array.size do 
      !if array[counter]
     return false
