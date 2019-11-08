@@ -83,7 +83,7 @@ def reduce_to_all_true(array)
    end 
     counter +=1 
   end 
-  return false
+  all_true
 end 
 
 # def reduce_to_any_true(array)
