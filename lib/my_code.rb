@@ -80,6 +80,7 @@ def reduce_to_all_true(array)
   while counter < array.size do 
    if !array[counter]
      return false
+   end 
     counter +=1 
   end 
   return false
