@@ -69,5 +69,8 @@ def reduce_to_total(array, starting_point=0)
   counter = 0 
   while counter < array.size do 
     final_array.push(array[counter] * -1)
-    
+    counter +=1 
+  end 
+  final_array
+end 
 end 
